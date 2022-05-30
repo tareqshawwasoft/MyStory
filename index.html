@@ -9,43 +9,27 @@
 </head>
 
 <style>
-  .form-container{
+  .a-container{
 width: 90%;
 margin-left: 5%;
 margin-bottom: 5%;
 display: flex;
 justify-content: space-evenly;
+background-color: #FFFDD0;
+
 
   }
-form{
-border-radius:5px;
-background-color:#FFFDD0;
-padding:30px;
-display: flex;
+  a{
+    margin: 2%;
 
-}
-label{
-  margin-right: 1%;
-  padding: 5px;
-  margin-left: 1%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-input{
-  margin: 2%;
-  margin-left: 0px;
-  width: 20%;
-}
+  }
+
 @media(max-width:1000px){
-  .form-container{
+  .a-container{
     flex-direction: column;
-    background-color: white;
+    background-color: #FFFDD0;
   }
-  form{
-    flex-direction: column;
-  }
-  input{
-    width: 80%;
-  }
+ 
 
 }
 </style>
@@ -159,18 +143,20 @@ input{
 </div>
 <!--Start Form-->
 
-<div class="form-container">
-  <form  method="get">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="first name">
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="last name">
-    <br>
-    <label for="date">Date Of Birth</label>
-    <input type="date" id="date" name="date-of-birth">
-    <input type="submit" value="Go!">
+<div class="a-container">
   
-  </form>
+  <a href="https://github.com/tareqshawwasoft">
+    GitHub profile
+  </a>
+  <a href="https://www.freecodecamp.org/tareqsoftwork">
+    FreeCodeCamp.org
+  </a>
+  <a href="https://www.codewars.com/users/tareqshawwasoft">
+    Code Wars
+  </a>
+  <a href="https://github.com/tareqshawwasoft?tab=repositories">
+    View My Projects
+  </a>
   </div>
 <!--End Form-->
 
